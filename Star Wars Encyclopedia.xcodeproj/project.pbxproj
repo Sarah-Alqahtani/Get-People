@@ -14,8 +14,6 @@
 		84E69CAB2777622900E4807E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E69CAA2777622900E4807E /* Assets.xcassets */; };
 		84E69CAE2777622900E4807E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E69CAC2777622900E4807E /* LaunchScreen.storyboard */; };
 		84E69CB62777629E00E4807E /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E69CB52777629E00E4807E /* PeopleViewController.swift */; };
-		84E69CB827777A7E00E4807E /* FilmsViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E69CB727777A7E00E4807E /* FilmsViewConroller.swift */; };
-		84E69CBC2777978B00E4807E /* decodeFilms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E69CBB2777978B00E4807E /* decodeFilms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +26,6 @@
 		84E69CAD2777622900E4807E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E69CAF2777622900E4807E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E69CB52777629E00E4807E /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
-		84E69CB727777A7E00E4807E /* FilmsViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewConroller.swift; sourceTree = "<group>"; };
-		84E69CBB2777978B00E4807E /* decodeFilms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decodeFilms.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +61,11 @@
 				84E69C9E2777622800E4807E /* AppDelegate.swift */,
 				84E69CA02777622800E4807E /* SceneDelegate.swift */,
 				84E69CB52777629E00E4807E /* PeopleViewController.swift */,
-				84E69CB727777A7E00E4807E /* FilmsViewConroller.swift */,
 				84E69CA42777622800E4807E /* Main.storyboard */,
 				84E69CAA2777622900E4807E /* Assets.xcassets */,
 				84E69CAC2777622900E4807E /* LaunchScreen.storyboard */,
 				84E69CAF2777622900E4807E /* Info.plist */,
 				84E69CA72777622800E4807E /* Star_Wars_Encyclopedia.xcdatamodeld */,
-				84E69CBB2777978B00E4807E /* decodeFilms.swift */,
 			);
 			path = "Star Wars Encyclopedia";
 			sourceTree = "<group>";
@@ -149,10 +143,8 @@
 			files = (
 				84E69CA92777622800E4807E /* Star_Wars_Encyclopedia.xcdatamodeld in Sources */,
 				84E69CB62777629E00E4807E /* PeopleViewController.swift in Sources */,
-				84E69CB827777A7E00E4807E /* FilmsViewConroller.swift in Sources */,
 				84E69C9F2777622800E4807E /* AppDelegate.swift in Sources */,
 				84E69CA12777622800E4807E /* SceneDelegate.swift in Sources */,
-				84E69CBC2777978B00E4807E /* decodeFilms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

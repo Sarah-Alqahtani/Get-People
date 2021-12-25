@@ -2,7 +2,7 @@
 
 import UIKit
 class PeopleViewController: UITableViewController {
-    // Hardcoded data for now
+    
     var people:[String] = []
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +38,7 @@ class PeopleViewController: UITableViewController {
                 
                 
     
-    
+    // // // // //
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
